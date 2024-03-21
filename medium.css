@@ -1,0 +1,131 @@
+body{
+  background: #F1F1F1;
+  font-family: 'Kanit', sans-serif;
+/* background-color: background: #E1E0E6; */
+}
+  .Sheet{
+  display: flex;
+  padding: auto;
+  width: 100%;
+  margin: 0;
+  flex-direction: column;
+  /* padding-left: 160px;
+  padding-right: 160px; */
+  margin-top: 24px;
+} 
+.articles{
+  display: flex;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+  .part{
+  display: flex;
+  flex-direction: row;
+}
+.mainCol{
+  display: flex;
+  flex-direction: column;
+
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  /* border-bottom: 1px solid #00000033;
+  justify-content: space-between; */
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 110px;
+  margin-bottom: 24px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.author{
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 0px;
+  margin-block-end: 0px;
+  gap: 5px;
+  /* padding-right: 5px; */
+}
+
+.author p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.text-muted{
+  color: #495057;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 80%;
+  gap: 24px;
+}
+.btnTextBoxes{
+  display: flex;
+  width: 90%;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  justify-content: space-between;
+  gap: 5px;
+}
+.btnText button{
+  width: 107px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  color: #081E34;
+  background-color: #081E341F;
+ }
+.btnTextBoxes p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btnText{
+  display: flex;
+  width: 90%;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  align-items: center;
+  gap: 5px;
+}
+.hr_line{
+  display: flex;
+  width: 1120px;
+  height: 1px;
+  background: #00000033;
+  margin-left: -160px;
+  bottom: -160px;
+  margin-left: 160px;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer{
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 200px;
+  padding-bottom: 42px;
+  justify-content: flex-end;
+  align-content: flex-end;
+  flex-wrap: wrap;
+}
+.credits{
+  color: #495057;
+}

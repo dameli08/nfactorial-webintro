@@ -1,0 +1,120 @@
+body{
+    background: #F1F1F1;
+    font-family: 'Kanit', sans-serif;
+  }
+.Sheet{
+    display: flex;
+    padding: auto;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+} 
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding-left: 160px;
+    padding-right: 160px;
+    
+  }
+  .header img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+  }
+  #ArrowLeft{
+    background: transparent;
+    border: none;
+  }
+  .author{
+    display: flex;
+    margin-top: 88px;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .authorImg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+
+  }
+  .authorImg img{
+    display: flex;
+    height: 64px;
+    width: 64px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+  }
+  .textAuth{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 10px;
+    justify-content: space-around;
+  }
+  .textAuth p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  .social img{
+    width: 18px;
+    height: 18px;
+  }
+  .bigImg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 76px;
+  }
+  .bigImg p{
+    size: 24px;
+  }
+  .bigImg img{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+  }
+  .socialImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+
+  }
+  .socialImg img{
+    width: 18px;
+    height: 18px;
+    margin: 0px;
+  }
+
+  .socials{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials p{
+    margin: 0px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 42px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .credits{
+    color: #495057;
+  }
